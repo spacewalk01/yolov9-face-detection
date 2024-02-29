@@ -30,7 +30,7 @@ python train_dual.py --workers 4 --device 0 --batch 4 --data ../widerface.yaml -
 
 ## Inference
 ``` shell
-python detect.py --weights runs\train\yolov9-c5\weights\best.pt --source assets/worlds-largest-selfie.jpg
+python detect.py --weights runs/train/yolov9-c5/weights/best.pt --source assets/worlds-largest-selfie.jpg
 ```
 
 ## 🔗 Reference

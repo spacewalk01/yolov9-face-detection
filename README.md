@@ -44,7 +44,6 @@ ${ROOT}
 2. Download annotation files from [google drive](https://drive.google.com/file/d/1tU_IjyOwGQfGNUvZGwWWM4SwxKp2PUQ8/view?usp=sharing).
 
 ```shell
-cd data
 python train2yolo.py datasets/original-widerface/train [datasets/widerface/train]
 python val2yolo.py  datasets/original-widerface [datasets/widerface/val]
 ```

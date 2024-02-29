@@ -38,6 +38,9 @@ ${ROOT}
         └── val/
             └── images/
             └── label.txt
+└── train2yolo.py
+└── val2yolo.py
+└── widerface.yaml
 ```
 
 To prepare the data:

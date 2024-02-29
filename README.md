@@ -16,10 +16,10 @@ cd yolov9-face-detection/yolov9
 pip install -r requirements.txt
 ```
 
-## Pretrained Model
+## 🤖 Pretrained Model
 - Download the pretrained yolov9-c.pt model from [google drive](https://drive.google.com/file/d/15K4e08lcZiiQrXmdsnm2BhcoNS3MOMmx/view?usp=sharing). Note that this model was trained on the WIDER dataset for 240 epochs.
 
-## Data Preparation
+## 📚 Data Preparation
 
 The WIDER dataset comprises of more than 30k images with more than 390k faces, each with bouding box and other various label formats.
 

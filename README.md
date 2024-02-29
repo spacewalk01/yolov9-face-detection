@@ -20,7 +20,22 @@ pip install -r requirements.txt
 - 
 
 ## Data Preparation
-
+Dataset structure:
+```
+${ROOT}
+└── yolov9
+└── dataset/    
+    └── widerface/
+        └── train/
+        └── val/
+    └── original-widerface/
+        └── train/
+            └── images/
+            └── label.txt
+        └── val/
+            └── images/
+            └── label.txt
+```
 
 ## Training
 ``` shell

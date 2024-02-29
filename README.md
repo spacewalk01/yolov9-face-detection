@@ -5,14 +5,15 @@
 </p>
 
 ## Pretrained Model
-- Download
+- 
 
 ## Data Preparation
 
 
-## Train
+## Training
 ``` shell
-python train_dual.py --workers 4 --device 0 --batch 4 --data data/widerface.yaml --img 640 --cfg models/detect/yolov9-c.yaml --weights '' --name yolov9-c --hyp hyp.scratch-high.yaml --min-items 0 --epochs 500 --close-mosaic 15
+cd yolov9
+python train_dual.py --workers 4 --device 0 --batch 4 --data ../widerface.yaml --img 640 --cfg models/detect/yolov9-c.yaml --weights '' --name yolov9-c --hyp hyp.scratch-high.yaml --min-items 0 --epochs 500 --close-mosaic 15
 ```
 
 ## Inference

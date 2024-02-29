@@ -7,7 +7,7 @@ In this repo, I have trained yolov9-c on the WIDER face dataset.
   <img src="assets/result.jpg" />
 </p>
 
-## 🛠️ Installation
+## ⚙️ Installation
 Clone repo and install [requirements.txt](https://github.com/spacewalk01/yolov9-face-detection/blob/main/yolov9/requirements.txt) for YOLOv9:
 ```
 # Clone

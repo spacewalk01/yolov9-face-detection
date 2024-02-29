@@ -27,7 +27,7 @@ Dataset structure:
 ```
 ${ROOT}
 └── yolov9
-└── dataset/    
+└── datasets/    
     └── widerface/
         └── train/
         └── val/

@@ -1,5 +1,8 @@
 <h1 align="center"><span>YOLOv9 for Face Detection</span></h1>
 
+In this repo, I have trained yolov9-c on the WIDER face dataset. The WIDER dataset comprises of more than 30k images with more than 390k faces, each with bouding box and other various label formats.
+
+
 <p align="center" margin: 0 auto;>
   <img src="assets/worlds-largest-selfie.jpg" />
 </p>

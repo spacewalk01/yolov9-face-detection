@@ -42,8 +42,8 @@ ${ROOT}
 
 ```shell
 cd data
-python train2yolo.py datasets/original/widerface/train [datasets/widerface/train]
-python val2yolo.py  datasets/original/widerface [datasets/widerface/val]
+python train2yolo.py datasets/original-widerface/train [datasets/widerface/train]
+python val2yolo.py  datasets/original-widerface [datasets/widerface/val]
 ```
 
 ## Training

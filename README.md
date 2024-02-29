@@ -17,7 +17,7 @@ pip install -r requirements.txt
 ```
 
 ## Pretrained Model
-- Download the pretrained yolov9-c.pt model from [google drive](https://drive.google.com/file/d/15K4e08lcZiiQrXmdsnm2BhcoNS3MOMmx/view?usp=sharing). Note that this model was trained on wider dataset for 240 epoches.
+- Download the pretrained yolov9-c.pt model from [google drive](https://drive.google.com/file/d/15K4e08lcZiiQrXmdsnm2BhcoNS3MOMmx/view?usp=sharing). Note that this model was trained on the WIDER dataset for 240 epochs.
 
 ## Data Preparation
 
@@ -40,8 +40,12 @@ ${ROOT}
             └── label.txt
 ```
 
+To prepare the data:
+
 1. Download [WIDER-FACE](http://shuoyang1213.me/WIDERFACE) datasets.
 2. Download annotation files from [google drive](https://drive.google.com/file/d/1tU_IjyOwGQfGNUvZGwWWM4SwxKp2PUQ8/view?usp=sharing).
+
+Run the following commands:
 
 ```shell
 python train2yolo.py datasets/original-widerface/train [datasets/widerface/train]
@@ -49,12 +53,18 @@ python val2yolo.py  datasets/original-widerface [datasets/widerface/val]
 ```
 
 ## Training
+
+To train the model, use the following command:
+
 ``` shell
 cd yolov9
 python train_dual.py --workers 4 --device 0 --batch 4 --data ../widerface.yaml --img 640 --cfg models/detect/yolov9-c.yaml --weights '' --name yolov9-c --hyp hyp.scratch-high.yaml --min-items 0 --epochs 500 --close-mosaic 15
 ```
 
 ## Inference
+
+For inference, run the following command:
+
 ``` shell
 python detect.py --weights runs/train/yolov9-c5/weights/best.pt --source assets/worlds-largest-selfie.jpg
 ```

@@ -17,9 +17,7 @@ pip install -r requirements.txt
 ```
 
 ## Pretrained Model
-- Download the pretrained yolov9-c.pt model from [google drive](https://drive.google.com/file/d/15K4e08lcZiiQrXmdsnm2BhcoNS3MOMmx/view?usp=sharing).
-  
-Note that this model was trained on wider dataset for 240 epoches.
+- Download the pretrained yolov9-c.pt model from [google drive](https://drive.google.com/file/d/15K4e08lcZiiQrXmdsnm2BhcoNS3MOMmx/view?usp=sharing). Note that this model was trained on wider dataset for 240 epoches.
 
 ## Data Preparation
 Dataset structure:

@@ -24,7 +24,7 @@ Download the pretrained yolov9-c.pt model from [google drive](https://drive.goog
 
 The WIDER dataset comprises of more than 30k images with more than 390k faces, each with bouding box and other various label formats.
 
-Dataset structure:
+*Dataset structure*
 ```
 ${ROOT}
 └── yolov9

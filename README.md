@@ -4,7 +4,7 @@ In this repo, I have trained yolov9-c on the WIDER face dataset. The WIDER datas
 
 
 <p align="center" margin: 0 auto;>
-  <img src="assets/worlds-largest-selfie.jpg" />
+  <img src="assets/result.jpg" />
 </p>
 
 ## 🛠️ Installation
@@ -30,7 +30,7 @@ python train_dual.py --workers 4 --device 0 --batch 4 --data ../widerface.yaml -
 
 ## Inference
 ``` shell
-python detect.py --weights runs\train\yolov9-c5\weights\best.pt --source worlds-largest-selfie.jpg
+python detect.py --weights runs\train\yolov9-c5\weights\best.pt --source assets/worlds-largest-selfie.jpg
 ```
 
 ## 🔗 Reference

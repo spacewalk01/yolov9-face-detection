@@ -17,7 +17,7 @@ pip install -r requirements.txt
 ```
 
 ## Pretrained Model
-- Download the pretrained (yolov9-c.pt)[https://drive.google.com/file/d/15K4e08lcZiiQrXmdsnm2BhcoNS3MOMmx/view?usp=sharing]
+- Download the pretrained yolov9-c.pt model from [google drive](https://drive.google.com/file/d/15K4e08lcZiiQrXmdsnm2BhcoNS3MOMmx/view?usp=sharing).
 
 ## Data Preparation
 Dataset structure:

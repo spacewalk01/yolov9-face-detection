@@ -75,4 +75,4 @@ python detect.py --weights runs/train/yolov9-c5/weights/best.pt --source assets/
 ## 🔗 Reference
 * [YOLOv9](https://github.com/WongKinYiu/yolov9) - YOLOv9: Learning What You Want to Learn Using Programmable Gradient Information
 * [WIDER FACE](http://shuoyang1213.me/WIDERFACE) - WIDER FACE: A Face Detection Benchmark
-* [YOLO5Face]https://github.com/deepcam-cn/yolov5-face) - YOLO5Face: Why Reinventing a Face Detector
+* [YOLO5Face][https://github.com/deepcam-cn/yolov5-face) - YOLO5Face: Why Reinventing a Face Detector

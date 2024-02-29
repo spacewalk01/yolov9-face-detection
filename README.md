@@ -55,7 +55,7 @@ python train2yolo.py datasets/original-widerface/train [datasets/widerface/train
 python val2yolo.py  datasets/original-widerface [datasets/widerface/val]
 ```
 
-## Training
+## 🏋️ Training
 
 To train the model, use the following command:
 
@@ -64,7 +64,7 @@ cd yolov9
 python train_dual.py --workers 4 --device 0 --batch 4 --data ../widerface.yaml --img 640 --cfg models/detect/yolov9-c.yaml --weights '' --name yolov9-c --hyp hyp.scratch-high.yaml --min-items 0 --epochs 500 --close-mosaic 15
 ```
 
-## Inference
+## 🤸 Inference
 
 For inference, run the following command:
 
@@ -75,3 +75,4 @@ python detect.py --weights runs/train/yolov9-c5/weights/best.pt --source assets/
 ## 🔗 Reference
 * [YOLOv9](https://github.com/WongKinYiu/yolov9) - YOLOv9: Learning What You Want to Learn Using Programmable Gradient Information
 * [WIDER FACE](http://shuoyang1213.me/WIDERFACE) - WIDER FACE: A Face Detection Benchmark
+* [YOLO5Face]https://github.com/deepcam-cn/yolov5-face) - YOLO5Face: Why Reinventing a Face Detector

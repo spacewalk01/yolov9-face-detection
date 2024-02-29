@@ -73,6 +73,12 @@ For inference, run the following command:
 python detect.py --weights runs/train/yolov9-c5/weights/best.pt --source assets/worlds-largest-selfie.jpg
 ```
 
+Or if you want to use the trained model, download it from the above link and run the following command:
+
+``` shell
+python detect.py --weights best.pt --source assets/worlds-largest-selfie.jpg
+```
+
 ## 🔗 Reference
 * [YOLOv9](https://github.com/WongKinYiu/yolov9) - YOLOv9: Learning What You Want to Learn Using Programmable Gradient Information
 * [WIDER FACE](http://shuoyang1213.me/WIDERFACE) - WIDER FACE: A Face Detection Benchmark

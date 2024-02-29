@@ -1,0 +1,8 @@
+path: datasets/widerface/  # dataset root dir
+train: train  # train images (relative to 'path') 118287 images
+val: val  # val images (relative to 'path') 5000 images
+
+
+# Classes
+names:
+  0: face

@@ -4,6 +4,15 @@
   <img src="assets/worlds-largest-selfie.jpg" />
 </p>
 
+## 🛠️ Installation
+Clone this repo and install YOLOv9. 
+```
+# Clone
+git clone https://github.com/spacewalk01/yolov9-face-detection
+cd yolov9-face-detection/yolov9
+pip install -r requirements.txt
+```
+
 ## Pretrained Model
 - 
 

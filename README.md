@@ -16,7 +16,7 @@ pip install -r requirements.txt
 
 ## 🤖 Pretrained Model
 
-Download the pretrained yolov9-c.pt model from [google drive](https://drive.google.com/file/d/15K4e08lcZiiQrXmdsnm2BhcoNS3MOMmx/view?usp=sharing). Note that this model was trained on the WIDER dataset for 240 epochs.
+Download the pretrained `yolov9-c.pt` model from [google drive](https://drive.google.com/file/d/15K4e08lcZiiQrXmdsnm2BhcoNS3MOMmx/view?usp=sharing). Note that this model was trained on the WIDER dataset for 240 epochs.
 
 ## 📚 Data Preparation
 

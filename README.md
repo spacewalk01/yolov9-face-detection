@@ -54,7 +54,7 @@ python train2yolo.py [datasets/original-widerface/train] [datasets/widerface/tra
 python val2yolo.py [datasets/original-widerface] [datasets/widerface/val]
 ```
 
-This scripts will convert the annotation files to YOLO format, with one `*.txt` file per image. Each row is `class` `x_center` `y_center` `width` `height` format.
+These scripts will convert your annotation files to YOLO format, creating one .txt file per image. Each row in the file will represent a single object in the format: `class` `x_center` `y_center` `width` `height` format.
 
 ## 🏋️ Training
 

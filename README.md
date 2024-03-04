@@ -45,8 +45,8 @@ ${ROOT}
 
 To prepare the data:
 
-1. Download [WIDER-FACE](http://shuoyang1213.me/WIDERFACE) datasets.
-2. Download annotation files from [google drive](https://drive.google.com/file/d/1tU_IjyOwGQfGNUvZGwWWM4SwxKp2PUQ8/view?usp=sharing).
+1. Download the [WIDER-FACE](http://shuoyang1213.me/WIDERFACE) datasets.
+2. Download the annotation files from [google drive](https://drive.google.com/file/d/1tU_IjyOwGQfGNUvZGwWWM4SwxKp2PUQ8/view?usp=sharing).
 
 Run the following commands:
 
@@ -55,7 +55,7 @@ python train2yolo.py [datasets/original-widerface/train] [datasets/widerface/tra
 python val2yolo.py [datasets/original-widerface] [datasets/widerface/val]
 ```
 
-This scripts will convert annotation files to YOLO format, with one `*.txt` file per image. Each row is `class` `x_center` `y_center` `width` `height` format.
+This scripts will convert the annotation files to YOLO format, with one `*.txt` file per image. Each row is `class` `x_center` `y_center` `width` `height` format.
 
 ## 🏋️ Training
 

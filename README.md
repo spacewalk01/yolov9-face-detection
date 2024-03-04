@@ -1,7 +1,6 @@
 <h1 align="center"><span>YOLOv9 for Face Detection</span></h1>
 
-In this repo, I have trained yolov9-c on the WIDER face dataset. 
-
+This repo demonstrates how to train a YOLOv9 model for highly accurate face detection on the WIDER Face dataset. Alternatively, it shows how to utilize a pre-trained YOLOv9 model for immediate face detection tasks.
 
 <p align="center" margin: 0 auto;>
   <img src="assets/result.jpg" />

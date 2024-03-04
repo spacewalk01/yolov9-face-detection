@@ -1,6 +1,6 @@
 <h1 align="center"><span>YOLOv9 for Face Detection</span></h1>
 
-This repo demonstrates how to train a YOLOv9 model for highly accurate face detection on the WIDER Face dataset. Alternatively, it shows how to utilize a pre-trained YOLOv9 model for immediate face detection tasks.
+The face detection task identifies and pinpoints human faces in images or videos. This repo demonstrates how to train a YOLOv9 model for highly accurate face detection on the WIDER Face dataset. Alternatively, it shows how to utilize a pre-trained YOLOv9 model for immediate face detection tasks.
 
 <p align="center" margin: 0 auto;>
   <img src="assets/result.jpg" />
